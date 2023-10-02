@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/your-project-id/your-image-name:$SHORT_SHA', '.']
-images: ['gcr.io/your-project-id/your-image-name:$SHORT_SHA']
+  args: ['build', '-t', 'gcr.io/sandbox-tomvdb/tensorflow-mnist-flask:$SHORT_SHA', '.']
+images: ['gcr.io/sandbox-tomvdb/tensorflow-mnist-flask:$SHORT_SHA']

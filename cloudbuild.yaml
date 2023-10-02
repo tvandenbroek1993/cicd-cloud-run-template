@@ -1,7 +1,3 @@
-options:
-  env:
-    SHORT_SHA: 'da466d0'
-
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/sandbox-tomvdb/tensorflow-mnist-flask:$SHORT_SHA', '.']
